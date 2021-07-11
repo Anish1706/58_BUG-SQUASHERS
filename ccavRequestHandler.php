@@ -15,7 +15,7 @@
 	$access_code='';//Shared by CCAVENUES
 	
 	foreach ($_POST as $key => $value){
-		$merchant_data.=$key.'='.$value.'&';
+		$merchant_data.=$key.'='.$value.'&'; <!--example-->
 	}
 
 	$encrypted_data=encrypt($merchant_data,$working_key); // Method for encrypting the data.
