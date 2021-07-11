@@ -31,7 +31,7 @@ if($con->query($sqlcommand))
 	echo "<div class='alert alert-success'><a href='#' class='close' data-dismiss='alert' aria-label='close'>&times;</a><strong>Success!</strong> Product Added In Cart.</div>";
 }
 }
-
+<!---added globel con--->
 //echo $Product_ID."<br/>".$Amount;
 //echo "<div class='alert alert-success alert-dismissable'><a href='#'' class='close' data-dismiss='alert' aria-label='close'>&times;</a><strong>Success!</strong> Product Added To Cart.</div>";
 ?>
