@@ -8,7 +8,7 @@ if(!isset($_GET['name']))
 	echo "<script>window.open('about.php?name=".base64_encode('About Us')."','_self');</script>";
 }
 ?>
-
+<!--add this-->
 <!-- about -->
 		<div class="privacy about">
 			<h3>About Us</h3>
